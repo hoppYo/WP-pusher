@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Akatab:wght@400;500;600;700;800;900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: red; */
+}
+
+.mainContainer {
+  width: 100%;
+  max-width: 800px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  min-height: 50vh;
+  background-color: #F5F8FA;
+  ;
+  padding: 25px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* border: 5px solid yellow; */
+  height: 10vh;
+  padding: 25px;
+  box-shadow: 0px 0px 1px;
+}
+
+.logoImg {
+  width: 100px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.links {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  text-decoration: none;
+  width: 55px;
+  height: 4vh;
+  text-align: center;
+  background-color: white;
+  border: 1px light;
+}
+
+.twoContainers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.boxOne {
+  width: 100%;
+  max-width: 400px;
+  flex-basis: 60%;
+  min-height: 50vh;
+  padding: 20px;
+  font-size: 12px;
+  background-color: #fff;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow: 2px 2px 5px rgb(210, 233, 245);
+}
+.Checkout {
+  font-weight: 100;
+}
+.Freelancer {
+  color: aliceblue;
+  font-weight: 100;
+  font-size: 15px;
+}
+p {
+  width: 15px;
+  height: 15px;
+  border: 1px solid;
+  font-size: small;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.basics {
+  display: flex;
+  gap: 5px;
+  margin-block: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+#firtname,
+#lastname {
+  width: 100%;
+  max-width: 200px;
+}
+.email {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 5px;
+}
+
+.payment {
+  display: flex;
+  gap: 5px;
+  margin-top: 30px;
+}
+.ccForm {
+  margin-top: 15px;
+}
+.buy {
+  width: 100%;
+  height: 5vh;
+  margin-top: 25px;
+  background-color:#038E7D;
+}
+.needHelp {
+  display: flex;
+  margin-top: 15px;
+  gap: 5px;
+}
+.span1 {
+  font-weight: 900;
+  font-size: 14px;
+}
+.span2,
+a {
+  color: gray;
+}
+.powered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.Stripe {
+  font-weight: 900;
+}
+.POWERED {
+  font-size: 9px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.terms {
+  color: #038e7d;
+}
+.boxTwo {
+  font-size: 12px;
+  max-width: 250px;
+  flex-basis: 40%;
+  min-height: 70vh;
+  width: 100%;
+  padding: 20px;
+
+  /* font-family: "Lato", sans-serif; */
+  font-weight: 300;
+  font-style: normal;
+
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #fff;
+  background-color: #1179BF;
+}
+.dolSign {
+  font-size: 14px;
+  vertical-align: top;
+  margin-top: 8px;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+.ninethy {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  color: #fff;
+}
+.forwardSlash {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+.automatically {
+  display: flex;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: -0.007999998517334461px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.checkList {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+gap: 5px;
+  margin-block: 15px;
+}
+.CHECKLIST {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 5px;
+}
+p img {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Switch {
+  color: #fff;
+}
+.agency {
+  font-family: "Lato", sans-serif;
+  margin-block: 30px;
+}
+hr {
+  margin-block: 30px;
+}
+.ETP {
+  font-family: "Lato", sans-serif;
+}
+.footImg {
+  font-family: "Lato", sans-serif;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

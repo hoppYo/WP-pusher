@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <header class="nav">
+        <div class="imageLogo">
+          <img
+            class="logoImg"
+            src="https://s3-alpha-sig.figma.com/img/5368/6b0b/40dbd20438d891369ef0f4b1d4154e57?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mYpwP36QqWn3vwkiaJ6qiWDVzq4A8sv-HzydqCwVT4jcW4Ve2tK0GEAtEVrbB2IJtyplJnX0MgZpWklePoz~cecYdRwfQjZVEcorPeYLLLRs3pQxtxkHJ5OGqd5GivP7PJYHYqQhbURLw4z07vVmn35oZ7lIKs5CEcgCTlZDaew2ObGViZzt5LGNmqnMtYGPjtGG~sr9usrYDyesqyoBgVvVxrD8rKi6sNHQsNvRKPSpApF7ocvbkySAcSdMLmTmk9BnF2a8AE9uM1sBiHyK0drNcXpRinvPYjvNu5twFjy4PXQo0oSwuJeSbTsBN7wf0AYdvYIx8~7O~K0VUjvbJQ__"
+            alt=""
+          />
+        </div>
+
+        <div class="navbar">
+          <a href="" class="links">Download</a>
+          <a href="" class="links">Learn more</a>
+          <a href="" class="links">Pricing</a>
+          <a href="" class="links">Help</a>
+          <button class="link">Account</button>
+        </div>
+      </header>
+      <main class="twoContainers">
+        <div class="boxOne">
+          <h2 class="Checkout">Checkout</h2>
+          <section class="input">
+            <div class="basics">
+              <div class="circle1">
+                <p>1</p>
+              </div>
+              <span>Your Basic information</span>
+            </div>
+            <form action="checkout">
+              <div class="name">
+                <div class="firstname">
+                  <label for="firstname">First Name</label>
+                  <input
+                    type="text"
+                    placeholder="Opeyemi"
+                    id="firstname"
+                    name="text"
+                  />
+                </div>
+                <div class="lastname">
+                  <label for="lastname">Last Name</label>
+                  <input
+                    type="text"
+                    placeholder="Awoyinka"
+                    id="lastname"
+                    name="text"
+                  />
+                </div>
+              </div>
+              <div class="email">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  placeholder="arkthief@gmail.com"
+                  id="email"
+                  name="email"
+                />
+              </div>
+            </form>
+
+            <div class="payment">
+              <div class="circle2">
+                <p>2</p>
+              </div>
+              <span>Your Payment information</span>
+            </div>
+
+            <form action="/process-payment" method="POST" class="ccForm">
+              <label for="card-number">Credit Card</label>
+              <input
+                type="text"
+                id="card-number"
+                name="credit_card_number"
+                placeholder="Card Number                                         MM/YY     CVC"
+                pattern="[0-9]{13,16}"
+                maxlength="16"
+                autocomplete="cc-number"
+                required
+              />
+            </form>
+            <div class="footer">
+              <button class="buy">Buy WP Pusher</button>
+              <div class="needHelp">
+                <p>?</p>
+                <div class="span1">Need any help?</div>
+                <div class="span2">
+                  Don't hesitate to
+                  <a
+                    href="
+                    "
+                    >contact support?</a
+                  >
+                </div>
+              </div>
+              <div class="powered">
+                <button class="POWERED">
+                  powered by <span class="Stripe">Stripe</span>
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="boxTwo">
+          <h2 class="Freelancer">Freelancer</h2>
+          <section class="content">
+            <div class="dollar">
+              <span class="dolSign">$</span><span class="ninethy">99</span
+              ><span class="forwardSlash">/year</span>
+              <span class="automatically"
+                >Automatically renews <br />
+                after 1 year</span
+              >
+            </div>
+            <div class="checkList">
+              <div class="CHECKLIST">
+                <p>
+                  <img width="20px" src="./assets/check-circle.png" alt="" />
+                </p>
+                <span>Use on 5 client sites </span>
+              </div>
+              <div class="CHECKLIST">
+                <p>
+                  <img width="20px" src="./assets/check-circle.png" alt="" />
+                </p>
+                <span>Private repositories </span>
+              </div>
+              <div class="CHECKLIST">
+                <p>
+                  <img width="20px" src="./assets/check-circle.png" alt="" />
+                </p>
+                <span>Email support </span>
+              </div>
+            </div>
+            <div class="agency">
+              <div class="need">
+              <span>Need 20 clients sites?</span></div>
+              <div class="switchPlan">
+              <span
+                ><a href="" class="Switch">Switch to the Agency plan</a></span
+              ></div>
+            </div>
+            <hr />
+            <div class="ETP">
+              <span
+                >FTP is horrible to deal with. <em>WP Pusher</em> solves that
+                issue, and the customer support is awesome!</span
+              >
+              <div class="footImg">
+                <img src="./assets/Bitmap.png" alt="bitmap" />
+                <span>Kirk Beard</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <span
+          >© 2018 WP Pusher IVS ·
+          <span class="terms">Terms of Service</span></span
+        >
+      </footer>
+    </div>
+  </body>
+</html>
